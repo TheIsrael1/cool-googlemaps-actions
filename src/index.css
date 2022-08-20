@@ -9,6 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1{
+  margin-bottom: 2rem;
+}
+
 .container{
   display: flex;
   height: 100vh;
@@ -63,4 +67,27 @@ cursor: pointer;
 
 .backNavItem:hover{
   color: #acb2bd;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.btn{
+  background-color: rgb(105, 93, 63);
+  width: 8rem;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .2s ease-out;
+}
+
+.btn:hover{
+  color: #14161a;
+  background-color: yellow;
 }
